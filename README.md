@@ -13,5 +13,6 @@ $key="1234567";
 $plainText = "hello world";
 $cipherText = AesCBC::encrypt($plainText, $key);
 
+//解密
 $plainText = AesCBC::decrypt($cipherText, $key);
 ```
