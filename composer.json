@@ -1,0 +1,21 @@
+{
+  "name": "quansitech/qs-php-crypt",
+  "description": "encrypt",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tider",
+      "email": "tider_yatsen@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "QsCrypt\\": "src/"
+    }
+  }
+}
